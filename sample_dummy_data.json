@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "demo-user",
+      "name": "Aarav Sharma",
+      "email": "aarav@example.com",
+      "phone": "+91 98765 43210",
+      "address": "Indiranagar, Bengaluru",
+      "ecoPoints": 2840,
+      "wasteRecycledKg": 126.5,
+      "streakDays": 18,
+      "profileImage": ""
+    }
+  ],
+  "pickups": [
+    {
+      "id": "demo-1",
+      "userId": "demo-user",
+      "wasteType": "Plastic",
+      "address": "Indiranagar, Bengaluru",
+      "scheduledAt": "2026-05-10T09:30:00.000Z",
+      "status": "accepted",
+      "notes": "Three bags of cleaned bottles."
+    }
+  ],
+  "rewards": [
+    {
+      "id": "hero",
+      "title": "Recycling Hero",
+      "requiredPoints": 500
+    }
+  ],
+  "communityPosts": [
+    {
+      "id": "1",
+      "authorName": "Meera Nair",
+      "text": "Hosted a society composting demo and diverted 18 kg of wet waste this weekend.",
+      "likes": 146,
+      "comments": 24
+    }
+  ]
+}
